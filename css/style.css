@@ -780,17 +780,17 @@ textarea:placeholder-shown {
 
 .form-field.check {
     margin-bottom: 30px;
-    display: flex;
 }
 
 .check-text {
     display: flex;
+    align-items: center;
+    justify-content: center;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
 }
 
 .check-link {
@@ -801,7 +801,7 @@ textarea:placeholder-shown {
 .check-text span {
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
 
     margin-right: 7px;
     width: 16px;
@@ -828,7 +828,7 @@ textarea:placeholder-shown {
     fill: var(--primary-white-color);
 }
 
-.button.modal-submit {
+.button-modal-submit {
     padding: 10px 55px;
     display: block;
     margin-left: auto;
